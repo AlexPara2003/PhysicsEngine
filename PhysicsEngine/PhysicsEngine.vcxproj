@@ -27,6 +27,7 @@
     <ClCompile Include="Engine\World.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Physics\Body.cpp" />
+    <ClCompile Include="Physics\Collision\Collision.cpp" />
     <ClCompile Include="Physics\Constraints\Joint.cpp" />
     <ClCompile Include="Physics\Forces\AreaForce.cpp" />
     <ClCompile Include="Physics\Forces\DragForce.cpp" />
@@ -35,6 +36,7 @@
     <ClCompile Include="Physics\GravitationalForce.cpp" />
     <ClCompile Include="Physics\Integrator.cpp" />
     <ClCompile Include="Physics\Shapes\CircleShape.cpp" />
+    <ClCompile Include="Tests\CollisionTest.cpp" />
     <ClCompile Include="Tests\ForceTest.cpp" />
     <ClCompile Include="Tests\JointTest.cpp" />
     <ClCompile Include="Tests\ParticleTest.cpp" />
@@ -49,6 +51,8 @@
     <ClInclude Include="Engine\World.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Physics\Body.h" />
+    <ClInclude Include="Physics\Collision\Collision.h" />
+    <ClInclude Include="Physics\Collision\Contact.h" />
     <ClInclude Include="Physics\Constraints\Joint.h" />
     <ClInclude Include="Physics\Forces\AreaForce.h" />
     <ClInclude Include="Physics\Forces\DragForce.h" />
@@ -58,6 +62,7 @@
     <ClInclude Include="Physics\Integrator.h" />
     <ClInclude Include="Physics\Shapes\CircleShape.h" />
     <ClInclude Include="Physics\Shapes\Shape.h" />
+    <ClInclude Include="Tests\CollisionTest.h" />
     <ClInclude Include="Tests\ForceTest.h" />
     <ClInclude Include="Tests\JointTest.h" />
     <ClInclude Include="Tests\ParticleTest.h" />

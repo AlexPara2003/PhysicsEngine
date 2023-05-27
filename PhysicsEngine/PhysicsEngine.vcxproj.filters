@@ -22,6 +22,9 @@
     <Filter Include="Source\Tests">
       <UniqueIdentifier>{7ce43107-8507-4558-b28a-aa666998db2c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Physics\Collision">
+      <UniqueIdentifier>{0e8ae6b5-616f-4ad3-8273-ff1005145c12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine\Graphics.cpp">
@@ -83,6 +86,12 @@
     </ClCompile>
     <ClCompile Include="Physics\Integrator.cpp">
       <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Collision\Collision.cpp">
+      <Filter>Source\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\CollisionTest.cpp">
+      <Filter>Source\Tests</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +157,15 @@
     </ClInclude>
     <ClInclude Include="Physics\Integrator.h">
       <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Collision\Contact.h">
+      <Filter>Source\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Collision\Collision.h">
+      <Filter>Source\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\CollisionTest.h">
+      <Filter>Source\Tests</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

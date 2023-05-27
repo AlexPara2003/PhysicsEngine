@@ -1,9 +1,10 @@
 #include "Tests/ForceTest.h"
 #include "Tests/JointTest.h"
+#include "Tests/CollisionTest.h"
 
 int main(int argc, char* argv[])
 {
-	Test* test = new JointTest();
+	Test* test = new CollisionTest();
 	test->Initialize();
 
 	while (!test->IsQuit())
